@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    margin: 5%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 188, 120);
+    text-align: center;
+    justify-content: center;
+}
+
+.alaram{
+    margin: 1% 30%;
+    background-color: beige;
+    box-shadow: 0 2px 5px 5px gray;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+.imag{
+   padding: 5px;
+     
+}
+.imag img{
+    width: 200px;
+    height: 200px;
+}
+
+#c_time{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.animImage{
+    animation: moveT .2s linear 50 ;
+} 
+@keyframes moveT {
+   0%{
+    transform: rotate(0deg);
+   }
+   25%{
+    transform: rotate(15deg);
+   }
+   50%{
+    transform: rotate(0deg);
+   }
+   75%{
+    transform: rotate(-15deg);
+   }
+   100%{
+    transform: rotate(0deg);
+   }
+}
+
+.text-container
+{
+    display: flex;
+    margin: 2%;
+    padding: 5px;
+  justify-content: space-between;
+}
+.text-container button{
+    background-color: green;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.date-container{
+    margin: 2%;
+}
+
+.date-container input{
+    padding: 5px;
+    background-color: darkcyan;
+    border-radius: 10px;
+
+}
