@@ -39,7 +39,7 @@
     
 }
 .animImage{
-    animation: moveT .2s linear 50 ;
+    animation: moveT .2s linear 100 ;
 } 
 @keyframes moveT {
    0%{
